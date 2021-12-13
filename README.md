@@ -1,8 +1,7 @@
 # terraform-vSphere
 This is an experimental terraform module for creating VMware Virtual Machine that ive done a couple past year in terms of internship in DDS Telkom
 with updated terraform registry
-
-# im just use terraform validate to ensure since i dont have any access on actual server so please do a recheck before using this module
+im just use terraform validate to ensure since i dont have any access on actual server so please do a recheck before using this module
 
 ## Usage
 Example usage (locally)
@@ -47,7 +46,7 @@ module "module" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | > = 0.13.0 |
-| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | = 2.0.2 |
+| <a name="requirement_vsphere"></a> [vsphere](#requirement\vsphere) | = 2.0.2 |
 
 ## License
 
